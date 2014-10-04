@@ -1,0 +1,12 @@
+// files
+*.meta
+*.mdb
+*.userprefs
+*.suo
+*.pdb
+
+// directries
+*/ShaderCache/
+*/metadata/
+/Temp/
+/obj/

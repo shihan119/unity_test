@@ -4,8 +4,8 @@ using System.Collections;
 public class BlockManager : MonoBehaviour {
 
 	void Awake() {
-		m_blockList				= new ArrayList( 100);
-		m_releaseBlockParent	= new GameObject();
+		m_blockList				  = new ArrayList( 100);
+		m_releaseBlockParent	  = new GameObject();
 		m_releaseBlockParent.name = "ReleaseBlockParent";
 		m_releaseBlockParent.transform.parent = transform;
 	}
@@ -20,8 +20,7 @@ public class BlockManager : MonoBehaviour {
 
 	void	Initialize()
 	{
-		for(int i = 0; i < m_blockList.Count; ++i) {
-			Object obj = m_blockList[ i] as Object;
+		foreach( Object obj in m_blockList) {
 			Destroy( obj);
 		}
 		m_blockList.Clear();

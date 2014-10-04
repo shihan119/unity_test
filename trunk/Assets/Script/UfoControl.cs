@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 public class UfoControl : MonoBehaviour {
 	
 	// Use this for initialization
@@ -13,24 +12,31 @@ public class UfoControl : MonoBehaviour {
 		m_blockManager = FindObjectOfType< BlockManager>();
 		m_block 	   = createBlock();
 
-		m_moveSpeed = MinMoveSpeed;
+		m_moveSpeed	= MinMoveSpeed;
+
+		StartPosition = new Vector3( StartPositionX, position.y, position.z);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//	add position
-		transform.Translate( MoveDirection * m_moveSpeed);
+		transform.Translate( MoveDirection * m_moveSpeed * Time.deltaTime);
+		//	positon reset
 		if( transform.localPosition.x < EndPositionX) {
-			Vector3 position = transform.localPosition;
-			transform.localPosition = new Vector3( StartPositionX, position.y, position.z);
+
+			transform.localPosition = StartPosition;
 
 			if( m_block == null) {
+				// block
 				m_block = createBlock();
+				// speed up
 				m_moveSpeed += AddMoveSpeed;
 				if( m_moveSpeed > MaxMoveSpeed) {
 					m_moveSpeed = MaxMoveSpeed;
 				}
 			}
+
+
 		}
 
 		// throw block
@@ -44,8 +50,8 @@ public class UfoControl : MonoBehaviour {
 	GameObject				createBlock()
 	{
 		GameObject obj = m_blockManager.createBlock();
-		obj.transform.localPosition = transform.localPosition;
-		obj.transform.parent = transform;
+		obj.transform.parent		= transform;
+		obj.transform.localPosition = Vector3.zero;
 		return obj;
 	}
 
@@ -64,10 +70,11 @@ public class UfoControl : MonoBehaviour {
 	private GameObject		m_block;
 	public float			m_moveSpeed;
 
-	public float			AddMoveSpeed		=  0.01f;
-	public float			MinMoveSpeed		=  0.1f;
-	public float			MaxMoveSpeed		=  0.5f;
-	public float			StartPositionX		=  10.0f;
-	public float			EndPositionX		= -10.0f;
+	public float			AddMoveSpeed;
+	public float			MinMoveSpeed;
+	public float			MaxMoveSpeed;
+	public float			StartPositionX;
+	public float			EndPositionX;
 	public Vector3			MoveDirection;
+	private Vector3			StartPosition;
 }

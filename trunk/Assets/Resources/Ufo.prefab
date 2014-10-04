@@ -68,10 +68,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94d7d05ce7f58b7409e8f48db27c7031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  AddMoveSpeed: .00999999978
-  MinMoveSpeed: .100000001
-  MaxMoveSpeed: .5
+  m_moveSpeed: 0
+  AddMoveSpeed: .5
+  MinMoveSpeed: 5
+  MaxMoveSpeed: 25
   StartPositionX: 10
   EndPositionX: -10
   MoveDirection: {x: -1, y: 0, z: 0}

@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\BlockControl.cs" />
      <Compile Include="Assets\Script\BlockManager.cs" />
+     <Compile Include="Assets\Script\Csv.cs" />
      <Compile Include="Assets\Script\UfoControl.cs" />
      <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
