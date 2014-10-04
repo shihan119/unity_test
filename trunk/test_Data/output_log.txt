@@ -1,0 +1,29 @@
+Initialize engine versversion: 4.5.4f1 (e036f44c54
+c9)
+GfxDevice: creating device client; threaded=1
+d=1
+Direct3D:
+    Veersrsi:   i eDirDect3D 11.0 [level 1
+0.0]en derer: NVrIDNVIDIA GeForce 9800 GT   (ID=0x6
+14)
+Vendor:   : VINVID
+IA
+ VR ARM:     4887 MB
+
+Begin MonoManager ReloadAssembly
+Begin MonoManager ReloadAssembly
+Pllatform assemby: C:\Users\shihan\home\project\unity_test\trurunk\test_Data\Managed\UnityEnnk\test_Data\Managed\UnityEngine.dll
+ (this message is harmless)
+LLoading C:\Uses\s\shihan\home\project\unity_tst\trunk\test_Data\Managed\UnityEngine.dll into Unitty Child Doain
+main
+Platfform assembly:C:\\Users\shihan\home\prroject\unity_test\trunk\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\shihannhome\project\unity_teome\proj\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+ect\unity_test\trunk\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  1.091 seconds
+- Completed reload, in  1.093 seconds
+desktop: 1920d1200sktoH:z1;20xi12u0 59Hz; virtu200 at -1920,0
+al: 3840x1200 at -1920,0
+<RI> Initializing inizing 
+input.
+<RI> Input initializedni.ial
+ized.
