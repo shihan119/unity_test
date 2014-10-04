@@ -15,6 +15,8 @@ public class UfoControl : MonoBehaviour {
 		m_moveSpeed	= MinMoveSpeed;
 
 		StartPosition = new Vector3( StartPositionX, position.y, position.z);
+
+		m_inputManager = FindObjectOfType<InputManager> ();
 	}
 	
 	// Update is called once per frame
@@ -38,7 +40,7 @@ public class UfoControl : MonoBehaviour {
 		}
 
 		// throw block
-		if( Input.GetMouseButtonDown(0)) {
+		if( m_inputManager.isTouchClick( 0 )) {
 			if( m_block != null) {
 				releaseBlock();
 			}
@@ -67,6 +69,8 @@ public class UfoControl : MonoBehaviour {
 	private BlockManager	m_blockManager;
 	private GameObject		m_block;
 	public float			m_moveSpeed;
+
+	public InputManager		m_inputManager;
 
 	public float			AddMoveSpeed;
 	public float			MinMoveSpeed;
