@@ -35,8 +35,6 @@ public class UfoControl : MonoBehaviour {
 					m_moveSpeed = MaxMoveSpeed;
 				}
 			}
-
-
 		}
 
 		// throw block

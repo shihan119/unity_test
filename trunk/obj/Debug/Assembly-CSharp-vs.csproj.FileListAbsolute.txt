@@ -9,3 +9,16 @@ C:\Users\shihan\home\project\unity_test\trunk\Temp\bin\Debug\ICSharpCode.NRefact
 C:\Users\shihan\home\project\unity_test\trunk\obj\Debug\Assembly-CSharp.dll
 C:\Users\shihan\home\project\unity_test\trunk\obj\Debug\Assembly-CSharp.pdb
 C:\Users\shihan\home\project\unity_test\trunk\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\UnityEditor.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\UnityEngine.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\nunit.framework.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\obj\Debug\Assembly-CSharp.dll
+C:\Users\shihan\home\project\unity_test\unity_test\trunk\obj\Debug\Assembly-CSharp.pdb
